@@ -1,0 +1,15 @@
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Myschool?characterEncoding=utf-8
+    name: datasource
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 9989
+mybatis:
+  mapper-locations: classpath*:sqlmap/*.xml
