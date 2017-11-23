@@ -12,4 +12,5 @@ public interface AdminDao {
     public List<Admin> selectAll(Admin admin);
     public int insert();
     public void  sss();
+    public  String as();
 }
