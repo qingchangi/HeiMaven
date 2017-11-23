@@ -10,4 +10,5 @@ import java.util.List;
  */
 public interface AdminDao {
     public List<Admin> selectAll(Admin admin);
+    public int insert();
 }
