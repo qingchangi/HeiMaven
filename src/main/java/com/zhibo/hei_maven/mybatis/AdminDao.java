@@ -10,5 +10,4 @@ import java.util.List;
  */
 public interface AdminDao {
     public List<Admin> selectAll(Admin admin);
-    String a = "我是宋文迪他爹";
 }
