@@ -8,7 +8,7 @@ public class Admin {
     private Integer id;
     private String name;
     private String pwd;
-    private String hh;//jjj
+    private String hh;//jjjj
 
     public String getHh() {
         return hh;
