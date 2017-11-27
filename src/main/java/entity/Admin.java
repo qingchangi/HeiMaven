@@ -8,6 +8,15 @@ public class Admin {
     private Integer id;
     private String name;
     private String pwd;
+    private String hh;
+
+    public String getHh() {
+        return hh;
+    }
+
+    public void setHh(String hh) {
+        this.hh = hh;
+    }
 
     public Integer getId() {
         return id;
@@ -32,4 +41,7 @@ public class Admin {
     public void setPwd(String pwd) {
         this.pwd = pwd;
     }
+
+
+
 }
